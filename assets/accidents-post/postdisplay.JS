@@ -8,14 +8,14 @@
 // ascending and descending, and can be filtered by
 // label.
 // ---------------------------------------------------
-// Author: Tai lieu mien phi
-// Url: http://www.123tailieufree.com/
-// Version: 2
-// Date: 2007-04-12
+// Author: DEV-ZONE 
+// Url: https://bteamwebsite-dev.blogspot.com/
+// Version: Debug-1
+// Date: 01-09-2021
 // ---------------------------------------------------
-// Thu thuat blog 
-// http://www.windows2it.com/
-// Date : 02-08-2011
+// BTEAMAPP-TECHN
+// https://bteamwebsite.blogspot.com/
+// Date : 02-01-2022
 // global arrays
 
    var postTitle = new Array();     // array of posttitles
@@ -269,5 +269,5 @@ function hideToc() {
   var tocdiv = document.getElementById("toc");
   tocdiv.innerHTML = '';
   var toclink = document.getElementById("toclink");
-  toclink.innerHTML = '<a href="#" onclick="scroll(0,0); showToc(); Effect.toggle('+"'toc-result','blind');"+'">» Show Table of Contents</a> <img src="https://1.bp.blogspot.com/-MMsDm64XZtM/VzQD8tvFJ-I/AAAAAAAAXhk/L2JgChUq2_w0vZHuPhaPGp_xGuA_YDaKQCLcB/s1600/new_1.gif"/>';
+  toclink.innerHTML = '<a href="#" onclick="scroll(0,0); showToc(); Effect.toggle('+"'toc-result','blind');"+'">Â» Show Table of Contents</a> <img src="https://1.bp.blogspot.com/-MMsDm64XZtM/VzQD8tvFJ-I/AAAAAAAAXhk/L2JgChUq2_w0vZHuPhaPGp_xGuA_YDaKQCLcB/s1600/new_1.gif"/>';
 }
